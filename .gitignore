@@ -1,0 +1,5 @@
+node_modules/
+.idx/
+.vscode/
+firebase-debug.log
+.env
