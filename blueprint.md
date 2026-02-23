@@ -1,32 +1,25 @@
-# Lotto Number Recommender Blueprint
+# 꿈해몽 AI 로또 추천 (Dream Interpretation AI Lotto) Blueprint
 
-## Overview
-A modern, visually appealing web application that generates random lotto numbers (1-45) for the Korean lottery system. The app features a clean UI with animated lotto balls and a vibrant design.
+## 서비스 기획 및 마케팅 전략
+- **타겟**: 꿈의 의미를 중요하게 생각하고, 단순 행운보다 '스토리'가 담긴 번호를 원하는 사용자.
+- **핵심 가치**: "어젯밤 당신의 꿈, 행운의 번호로 피어나다."
+- **브랜딩**: 신비로운 밤하늘, 별똥별, 꿈의 해석이라는 감성적 터치를 통해 신뢰감과 재미를 동시에 전달.
 
-## Features
-- **Random Number Generation**: Generates 6 unique numbers between 1 and 45.
-- **Visual Lotto Balls**: Displays numbers inside colored circles matching the standard lotto color scheme (Yellow, Blue, Red, Grey, Green).
-- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
-- **Animations**: Smooth transitions when generating new numbers.
+## 주요 기능
+- **꿈 입력 (Dream Input)**: 사용자가 자신의 꿈을 간단히 적을 수 있는 입력창.
+- **AI 꿈 해석 시뮬레이션**: 입력된 꿈의 텍스트를 분석하는 듯한 시각적 피드백(애니메이션).
+- **감성적 번호 생성**: 분석 완료 후 밤하늘에서 별이 내려오듯 번호가 생성됨.
 
-## Design Specifications
-- **Colors**:
-  - 1-10: Yellow (#fbc400)
-  - 11-20: Blue (#69c8f2)
-  - 21-30: Red (#ff7272)
-  - 31-40: Grey (#aaa)
-  - 41-45: Green (#b0d840)
-- **Typography**: Clean sans-serif fonts.
-- **Effects**: Soft shadows, gradients, and a subtle background texture.
+## 디자인 명세
+- **배경**: 딥 퍼플(#1a1a2e)에서 네이비(#16213e)로 이어지는 그라데이션.
+- **효과**: 은은한 별빛(Starry sky) 배경, 반투명 유리 효과(Frosted Glass).
+- **폰트**: 나눔명조 또는 감성적인 세리프 스타일 권장.
 
-## Implementation Plan
-1. **HTML**: Structure the app with a title, a display area for the balls, and a "Generate" button.
+## 구현 상세
+1. **HTML**: 꿈 입력창(`textarea`)과 분석 상태창 추가.
 2. **CSS**: 
-   - Use Flexbox/Grid for layout.
-   - Implement lotto ball styling with colors and shadows.
-   - Add responsive styles.
+   - 몽환적인 밤하늘 배경 구현.
+   - 입력창 및 버튼에 네온 글로우(Glow) 효과 적용.
 3. **JavaScript**:
-   - Logic to generate 6 unique random numbers.
-   - Logic to sort numbers in ascending order.
-   - DOM manipulation to display the balls with appropriate colors.
-   - Animation trigger on button click.
+   - 입력값에 따른 딜레이 애니메이션 (분석 중... 기운을 모으는 중...).
+   - 분석 완료 텍스트 출력 후 번호 공개.
