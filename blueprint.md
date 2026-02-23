@@ -1,5 +1,9 @@
 # 꿈해몽 AI 로또 추천 (Dream Interpretation AI Lotto) Blueprint
 
+## 프로젝트 정보
+- **배포 URL**: [https://my-first-app-cm5.pages.dev/](https://my-first-app-cm5.pages.dev/)
+- **GitHub**: [https://github.com/shkwon-cloud/my-first-app](https://github.com/shkwon-cloud/my-first-app)
+
 ## 서비스 기획 및 마케팅 전략
 - **타겟**: 꿈의 의미를 중요하게 생각하고, 단순 행운보다 '스토리'가 담긴 번호를 원하는 사용자.
 - **핵심 가치**: "어젯밤 당신의 꿈, 행운의 번호로 피어나다."
